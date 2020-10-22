@@ -1,0 +1,199 @@
+:root {
+
+    /* Colors: */
+    --naranja: #FF9F1C;
+    --naranja-claro: #FFBF69;
+    --azul-perry: #2EC4B6;
+    --azul-perry-claro: #CBF3F0;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+    /*header*/
+    .page-head {
+        position: fixed;
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        padding-left: 90px;
+        padding-right: 90px;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0px;
+        z-index: 11;
+        margin-bottom: 20px;  
+    }
+    
+    header {
+     margin-bottom: 50px;
+    }
+    
+    body {
+    padding-top: 120px;
+      }
+    
+    .menu-link {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--azul-perry);
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 50px;
+    }
+
+
+    
+    .menu-link:hover {
+        text-decoration: none;
+        color: var(--azul-perry-claro);
+    }
+    
+    
+    footer{
+        position: relative; bottom: 0px; right: 0; left: 0;
+        width: 100%;
+    }
+
+    /*Foto sección*/
+.foto-seccion {
+    width: 100%;
+    height: 400px;
+    background: #fe8c00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(13, 100%, 54%, 0.568), hsla(33, 100%, 50%, 0.644)), url(../img/padlet-fotos.png);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(13, 100%, 54%, 0.568), hsla(33, 100%, 50%, 0.644)), url(../img/padlet-fotos.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .textos-foto {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  
+  .textos-foto h1 {
+    font-size: 140px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    opacity: .9;
+  }
+    
+  /*info challenge*/
+  .contenedor{
+    padding: 30px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  h2 {
+      font-size: 46px;
+      text-align: center;
+  }
+
+  .recuadros {
+      padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .info-recuadros img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 10px;
+
+  }
+
+  .info-recuadros video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+
+}
+
+  .info-recuadros{
+    width: 260px;
+    display: flex;
+    height: 450px;
+    margin-bottom: 10px;
+    position: relative;
+    color: white;
+    padding: 30px;
+    opacity: .8;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    flex-wrap: wrap;
+  }
+  
+  .ht{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    letter-spacing: 4px;
+    position: relative;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 150px;
+    z-index: 1;
+  }
+
+  .agregar{
+      font-size: 20px;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .info-challenge{
+      text-align: center;
+      font-size: 22px;
+      margin-top: 10px;
+  }
+
+  a {
+      color: var(--azul-perry);
+  }
+
+  .tiktok{
+      color: white;
+      text-align: center;
+  }
