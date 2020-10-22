@@ -2,8 +2,10 @@
 <html lang="es">
   <head>
     <!-- INFORMACIÓN GENERAL-->
-    <title>Cuerpo Ideal</title>
+    <title>Home - CAMSOL</title>
     <meta charset="utf-8">
+    <meta name="description" content="Distribuidor de la marca International con venta de unidades de carga y pasaje, 
+    refacciones, taller de servicio y renta de unidades en corto y largo plazo.">
     
     <!-- Sets initial viewport load and disables zooming-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,90 +13,118 @@
 
     <!-- SmartAddon.com Verification -->
 	  <meta name="keywords" content="Camiones">
-    <link rel="shortcut icon" href="img/logo.png"/>
-    <link rel="bookmark" href="img/logo.png"/>
+    <link rel="shortcut icon" href="img/logo negro.png"/>
+    <link rel="bookmark" href="img/logo negro.png"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- site css -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="css/carousel.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">    
+    <!-- FACEBOOK METADATA -->
+    <meta property="og:image" href="img/nosotros.jpg">
+    <meta property="og:description" content="Distribuidor de la marca International con venta de unidades de carga y pasaje, 
+    refacciones, taller de servicio y renta de unidades en corto y largo plazo.">
+    <meta property="og:title" content="CAMSOL">
     
   </head>
-  <body>
-      
+  <body class="home">
+
    <!--header -->
    <header class="page-head">
     <a href="index.html" class="logo">
-      <img src="img/logo.png"  height="76" alt="logo"/>
+      <img src="img/logo_blanco.png" width="130" height="76" alt="logo"/>
     </a>
     <nav class="menu">
           <div>
-            <div><a href="Quienes_somos.html" class="menu-link">Tipos de cuerpos</a>
-              <a href="camiones.html" class="menu-link">Photoshop</a>
-              <a href="Refacciones.html" class="menu-link">Enfermedades alimenticias</a>
+            <div><a href="Quienes_somos.html" class="menu-link">¿Quiénes somos?</a>
+              <a href="camiones.html" class="menu-link">Camiones</a>
+              <a href="usados.html" class="menu-link">Seminuevos</a>
+              <a href="Refacciones.html" class="menu-link">Refacciones</a>
               <a href="Servicio.html" class="menu-link">Servicio</a>
               <a href="Idealease.html" class="menu-link">Idealease</a>
+              <a href="Contacto.html" class="menu-link">Contacto</a>
             </div>
           </div>
     </nav>
   </header>
-  <div class="foto-seccion">
-    <section class="textos-foto">
-        <h1>#NoSeQue</h1>
-    </section>
-  <div class="wave" style="height: 150px; overflow: hidden;" >
-      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-          <path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;">
-          </path>
-      </svg>
-  </div>
-  </div>
-    <section>
-        <div class="contenedor">
-            <h2>¡Participa en nuestro hashtag!</h2>
-            <p class="info-challenge">Demuéstrale a la publicidad que tú también tienes un cuerpo ideal</p>
-            <p class="agregar">Agrega tu foto <a href="https://padlet.com/valentydash/9mnva2cop9lg35jy">aquí</a> o comparte tu video en TikTok con el #</p>
-            <div class="recuadros">
-                <div class="info-recuadros">
-                    <img src="img/padlet-1.jpg" alt="">
-                    <div class="ht">
-                        <h3>#NoSeQue</h3>
-                    </div>
-                </div>
-                <div class="info-recuadros">
-                    <video src="img/video tiktok dibujo.mp4" type="video/mp4" style="width: 260px; height: 450px"; controls></video>
-                    <div class="ht">
-                        <a href="https://www.tiktok.com/@cuerpo_ideal/video/6885898645292535042?lang=es&sender_device=pc&sender_web_id=6817224522149758470&is_from_webapp=1" target="_blank" class="tiktok" >TikTok</a>
-                    </div>
-                </div>
-                <div class="info-recuadros">
-                    <img src="img/padlet-2.jpg" alt="">
-                    <div class="ht">
-                        <h3>#NoSeQue</h3>
-                    </div>
-                </div>
-                <div class="info-recuadros">
-                    <img src="img/padlet-4.jpg" alt="">
-                    <div class="ht">
-                        <h3>#NoSeQue</h3>
-                    </div>
-                </div>
-                <div class="info-recuadros">
-                    <img src="img/padlet-5.jpg" alt="">
-                    <div class="ht">
-                        <h3>#NoSeQue</h3>
-                    </div>
-                </div>
-                <div class="info-recuadros">
-                    <img src="img/padlet-6.jpg" alt="">
-                    <div class="ht">
-                        <h3>#NoSeQue</h3>
-                    </div>
-                </div>
-
+  
+  <!-- Carrusel de imagenes de imagen de camsol -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active" data-interval="3000"></li>
+      <li data-target="#myCarousel" data-slide-to="1"data-interval="3000"></li>
+      <li data-target="#myCarousel" data-slide-to="2"data-interval="3000"></li>
+      <li data-target="#myCarousel" data-slide-to="3"data-interval="3000"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active camsol">
+        <div class="overlay camsol"></div>
+        <img class="first-slide" src="img/LT_slider_1.jpg" alt="First slide">
+          <div class="container">
+           <div class="carousel-caption">
+            <h1>UNIDADES</h1>
+            <p>Tenemos un camión para cada necesidad de tu negocio, conoce los nuevos modelos y optimiza tu desempeño y rendimiento de combustible con la tecnología de nuestras unidades.</p>
+          </div>
         </div>
-          
-      </section>
+      </div>
+      <div class="carousel-item camsol">
+        <div class="overlay camsol"></div>
+        <img class="second-slide" src="img/Servicio_slider_2.jpg" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Servicio</h1>
+            <p>Los talleres, las herramientas, pero sobre todo el personal certificado que necesitas para mantener a tu camión en el camino. Rescate Carretero Idealnet 24/7. Ven y conoce nuestra garantía de servicio.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item camsol">
+        <div class="overlay camsol"></div>
+        <img class="third-slide" src="img/Refacciones_slider_3.jpg" alt="Third slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Refacciones</h1>
+            <p>Las refacciones que tu camión necesita para mantenerse funcionando, a precios competitivos y con el mejor tiempo de entrega. Ven y conoce la experiencia CAMSOL.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item camsol">
+        <div class="overlay camsol"></div>
+        <img class="fourth-slide" src="img/Idealease_slider_4.jpg" alt="Fourth slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>IDEALEASE</h1>
+            <p>Renta de camiones: Desde 1 a 52 toneladas. Mantenimiento Incluido. Equipados con telemetría para monitorear hábitos de manejo y la salud de la unidad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
+    <!-- Footer-->
+      <footer>
+        <div class="banner"></div>
+          <img src="img/banner_international.png" alt="Pie de página international" width="100%">
+    
+      </footer>
+    
+
+     <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
     
   </body>
 </html>
