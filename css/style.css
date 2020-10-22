@@ -23,7 +23,7 @@
         align-items: center;
         padding: 20px;
         padding-left: 90px;
-        padding-right: 90px;
+        padding-right: 140px;
         left: 0;
         right: 0;
         top: 0;
@@ -46,16 +46,13 @@
     color: var(--azul-perry);
     display: inline-block;
     text-decoration: none;
-    margin-left: 50px;
+    margin-left: 90px;
     }
-
-
     
     .menu-link:hover {
         text-decoration: none;
         color: var(--azul-perry-claro);
     }
-    
     
     footer{
         position: relative; bottom: 0px; right: 0; left: 0;
@@ -98,7 +95,6 @@
     font-size: 140px;
     font-weight: 800;
     color: white;
-    text-transform: uppercase;
     opacity: .9;
   }
     
