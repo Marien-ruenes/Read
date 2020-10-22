@@ -1,0 +1,52 @@
+
+
+.foto-seccion-mujeres{
+    width: 100%;
+    height: 300px;
+    background: #fe8c00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(13, 100%, 54%, 0.815), hsla(33, 100%, 50%, 0.644)), url(../img/);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(13, 100%, 54%, 0.829), hsla(33, 100%, 50%, 0.644)), url(../img/);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.texto-foto {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  
+  .texto-foto h1 {
+    font-size: 120px;
+    font-weight: 800;
+    color: white;
+    opacity: .9;
+  }
+
+  /*info*/
+  .info-cuerpos{
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 40px;
+  }
+
+  .subtitulo-tipo{
+      padding: 100px;
+      line-height: 30px;
+      text-align: justify;
+  }
+
+  .subtitulo-tipo h3{
+      font-size: 36px;
+      margin-bottom: 10px;
+  }
